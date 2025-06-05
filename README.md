@@ -1,6 +1,6 @@
-# Divide-and-Conquer Labelling (DHL) 
+# Dyamic-Count-Labeling (DCL) 
 
-A tool to speed up shortest path counting queries on large road networks, 
+A tool to speed up shortest path counting queries on large and dynamic road networks, 
 It consists of the following main files:
 
 * road_network.h / road_network.cpp: core library
@@ -24,5 +24,9 @@ To construct index:
 To query index:
 
     $ ./query index_file_name query_file_name
+
+To update index:
+
+    $ ./update index_file_name query_file_name
 
 `Sample Datasets/` folder provides a sample graph and a sample file containing query pairs
