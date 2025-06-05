@@ -10,6 +10,7 @@ Additional files are:
 
 * index.cpp: create an index file
 * query.cpp: load index from a file and evaluate random queries
+* update.cpp: update index to reflect graph changes
 
 # Usage
 
@@ -27,6 +28,6 @@ To query index:
 
 To update index:
 
-    $ ./update index_file_name query_file_name
+    $ ./update graph_file_name index_file_name update_file_name update_type(d - for decrease/i - for increase)
 
-`Sample Datasets/` folder provides a sample graph and a sample file containing query pairs
+`Sample/` folder provides a sample graph, a sample file containing query pairs and a sample file containing update pairs
